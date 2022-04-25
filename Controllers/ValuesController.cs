@@ -17,5 +17,11 @@ namespace GitExample.Controllers
         {
             return Ok("First");
         }
+
+        [HttpPost]
+        public ActionResult SaveValue(string name)
+        {
+            return Ok("Saved");
+        }
     }
 }
